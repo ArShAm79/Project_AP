@@ -122,8 +122,8 @@ void Controller::addCard()
     cherryCard->setPos(600,0);
     addItem(shooterCard);
     addItem(sunflowerCard);
-    addItem(walnutCard);
-    addItem(cherryCard);
+   // addItem(walnutCard);
+//    addItem(cherryCard);
     //add shovel
 
     auto shovel = new Shovel(this,holder);
